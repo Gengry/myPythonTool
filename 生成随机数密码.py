@@ -13,7 +13,7 @@ if w == 'y':
     list.append(2)
 if e == 'y':
     list.append(3)
-if type(n) is type(10):
+if n.isdigit():
     n = int(n)
 else :
     n = 16
